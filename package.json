@@ -1,0 +1,39 @@
+{
+  "name": "blue-frog-a",
+  "version": "0.0.1",
+  "description": "a prototype of the framework for JSON-RPC 2.0. using blue-frog-stream",
+  "main": "index.js",
+  "browserify": "browser.js",
+  "scripts": {
+    "test": "tape t/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishiduca/blue-frog-a.git"
+  },
+  "keywords": [
+    "jsonrpc",
+    "json-rpc",
+    "jsonrpc2",
+    "json-rpc2"
+  ],
+  "author": "ishiduca@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ishiduca/blue-frog-a/issues"
+  },
+  "homepage": "https://github.com/ishiduca/blue-frog-a#readme",
+  "dependencies": {
+    "blue-frog-core": "^0.3.0",
+    "blue-frog-stream": "^0.3.0",
+    "body": "^5.1.0",
+    "inherits": "^2.0.3",
+    "readable-stream": "^2.1.5",
+    "through2": "^2.0.1",
+    "uuid": "^2.0.2"
+  },
+  "devDependencies": {
+    "hyperquest": "^2.0.0",
+    "tape": "^4.6.0"
+  }
+}

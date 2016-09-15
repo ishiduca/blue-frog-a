@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "blue-frog-a": "file:..",
+    "ecstatic": "^2.1.0"
+  },
+  "scripts": {
+    "app": "node app.js",
+    "build": "browserify src/main.js > static/js/bundle.js"
+  }
+}
